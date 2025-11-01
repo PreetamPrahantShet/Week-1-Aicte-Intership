@@ -15,40 +15,59 @@ To develop a machine learning model that predicts seasonal variations in reservo
 📂 Dataset Details
 
 Source: Central Water Commission (CWC)
+
 Dataset Name: Daily Data of Reservoir Level during March 2024
+
 File: Daily_data_of_reservoir_level_of_Central_Water_Commission_(CWC)_Agency_during_March_2024.csv
+
 Description: Contains daily reservoir level readings for various water bodies across India.
 
 🧹 Data Cleaning Steps
 
 Performed using Python and Pandas:
+
 Load dataset using pd.read_csv()
+
 Handle missing values – filled or dropped NA values
+
 Removed duplicates – ensured no repeated rows
+
 Renamed columns – standardized names (e.g., Water_Level_m)
+
 Converted dates – to proper datetime format
+
 Filtered outliers – removed unrealistic water level values
+
 Exported cleaned data as cleaned_reservoir_data.csv
 
 💻 Tools & Technologies
 
 Programming Language: Python
+
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
 Platform: Jupyter Notebook / VS Code
+
 Version Control: GitHub
 
 📊 Next Steps (Upcoming Weeks)
 
 Week 2: Exploratory Data Analysis (EDA)
+
 Week 3: Build ML Model for Water Level Prediction
+
 Week 4: Model Evaluation and Visualization of Forecast Results
 
 🧠 Learning Outcome
 
 Through this project, I learned:
+
 How to collect and clean real-world environmental data
+
 Data preprocessing and feature engineering
+
 Basics of machine learning-based prediction in the energy sector
+
 Version control using GitHub
 
 👩‍💻 Author
